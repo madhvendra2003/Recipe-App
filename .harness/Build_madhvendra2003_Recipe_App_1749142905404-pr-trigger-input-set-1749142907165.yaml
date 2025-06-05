@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_madhvendra2003_Recipe_App_1749142905404-pr-trigger-input-set
+  identifier: Build_madhvendra2003_Recipe_App_1749142905404prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_madhvendra2003_Recipe_App_1749142905404
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
